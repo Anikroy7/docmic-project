@@ -1,11 +1,11 @@
 import React from 'react';
-import serviceImage from '../images/services_image/pose_4.png'
+import serviceImage from '../images/expriences_image/pose_4.png'
 
 const Experiences = () => {
     return (
         <section style={{
             background: "linear-gradient(360deg, rgb(241,246,244), rgb(245,228,236), rgba(255,255,255,0))"
-        }} className='px-3'>
+        }} className='px-3 h-screen'>
             <h5 className='font-bold text-primary'>16+ Years Experiences </h5>
 
 
