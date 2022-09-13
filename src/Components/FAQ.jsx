@@ -9,7 +9,7 @@ const FAQ = () => {
             {/* Categores container */}
 
 
-            <div className="flex justify-between">
+            <div className="lg:flex justify-between">
                 <div>
                     <h1 className='text-2xl py-3'>Get Your General Answer </h1>
                     <p className='flex items-center mb-2 justify-between'>

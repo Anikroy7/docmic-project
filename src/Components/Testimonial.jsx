@@ -1,5 +1,6 @@
 import React from 'react';
-import icon from '../images/testimonial_image/VectorPlay.png';
+import iconleft from '../images/testimonial_image/VectorLeft.png';
+import iconRight from '../images/testimonial_image/VectorRight.png';
 import ikbal from '../images/testimonial_image/Ikbal.png'
 
 const Testimonial = () => {
@@ -12,13 +13,13 @@ const Testimonial = () => {
                 gridTemplateColumns: '20% 60% 20%',
 
             }}>
-                <div className='bg-blue-200 w-16 h-16 flex items-center justify-center rounded-full ml-28 mt-24'>
-                    <img className='w-5 h-5 mr-2' src={icon} alt="" />
+                <div className='bg-blue-200 w-16 h-16 flex items-center justify-center rounded-full lg:ml-28 lg:mt-24 sm:mt-60 sm:ml-5'>
+                    <img className='w-5 h-5 mr-2' src={iconleft} alt="" />
                 </div>
                 {/* main slider start */}
 
                 <div>
-                    <div className='flex bg-white p-8 rounded-md'>
+                    <div className='lg:flex md:flex bg-white p-8 rounded-md'>
                         <div>
                             <p className='font-semibold'>David Jeams</p>
                             <small className='font-semibold'>Patient</small>
@@ -31,8 +32,8 @@ const Testimonial = () => {
 
                     </div>
                 </div>
-                <div className='bg-blue-200 w-16 h-16 flex items-center justify-center rounded-full mt-24 ml-9'>
-                    <img className='w-5 h-5 mr-2' src={icon} alt="" />
+                <div className='bg-blue-200 w-16 h-16 flex items-center justify-center rounded-full lg:mt-24 lg:ml-9 sm:mt-60 sm:ml-6'>
+                    <img className='w-5 h-5 ' src={iconRight} alt="" />
                 </div>
             </div>
         </section >

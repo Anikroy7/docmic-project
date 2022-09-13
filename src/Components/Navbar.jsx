@@ -24,7 +24,7 @@ const Navbar = () => {
                 </div>
                 <div className="text-2xl font-bold">
                     <span className='text-secondary'>Doc</span>
-                    <span className='text-primary'>mic</span>
+                    <span className='text-primary'>mic.</span>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">

@@ -1,6 +1,7 @@
 import React from 'react';
 import Experiences from './Experiences';
 import FAQ from './FAQ';
+import Footer from './Footer';
 import Header from './Header';
 import HospitalFeatures from './HospitalFeatures';
 import Navbar from './Navbar';
@@ -21,6 +22,7 @@ const Home = () => {
                 <FAQ></FAQ>
             </div>
             <Testimonial></Testimonial>
+            <Footer></Footer>
         </div >
     );
 };
