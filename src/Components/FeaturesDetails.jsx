@@ -10,7 +10,7 @@ const FeaturesDetails = ({ feature }) => {
                     <h2 className='font-semibold'>{name}</h2>
                     <img src={img} alt="" />
                 </div>
-                <p>{info}</p>
+                <p className='text-justify'>{info}</p>
 
             </div>
         </div>

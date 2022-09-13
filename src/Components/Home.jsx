@@ -16,7 +16,7 @@ const Home = () => {
             <Services></Services>
             <div style={{
                 background: "linear-gradient(360deg, rgb(241,246,244), rgb(241,246,246), rgba(255,255,255,0))"
-            }} className='px-3 p-6'>
+            }} className='px-3'>
                 <Experiences></Experiences>
                 <HospitalFeatures></HospitalFeatures>
                 <FAQ></FAQ>

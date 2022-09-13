@@ -9,7 +9,7 @@ const ServiceDetails = ({ service }) => {
                     <h2 className='font-semibold'>{name}</h2>
                     <img src={img} alt="" />
                 </div>
-                <p>{info}</p>
+                <p className='text-justify mt-2 mb-2'>{info}</p>
                 {
                     id === 3 ? <p className='font-semibold mt-3 text-secondary'>Explore Now</p> : <p className='font-semibold mt-3'>Explore Now</p>
                 }

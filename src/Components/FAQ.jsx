@@ -1,5 +1,10 @@
 import React from 'react';
-import faqImage from '../images/FAQ_image/pose_8.png'
+import faqImage from '../images/FAQ_image/pose_8.png';
+import blood_press from '../images/FAQ_image/Blood_Pressure.png'
+import Defibrillator from '../images/FAQ_image/Defibrillator.png'
+import Gloves from '../images/FAQ_image/Gloves.png'
+import light from '../images/FAQ_image/light.png'
+
 const FAQ = () => {
     return (
         <section>
@@ -39,8 +44,20 @@ const FAQ = () => {
                     </p>
 
                 </div>
-                <div>
+                <div className='relative mr-16'>
                     <img src={faqImage} alt="" />
+                    <div>
+                        <img className='absolute top-8 right-[240px]' src={Defibrillator} alt="" />
+                        <img className='absolute top-7 right-12' src={blood_press} alt="" />
+                        <img className='absolute top-52 right-[60px]' src={Gloves} alt="" />
+
+                    </div>
+                    <div className='bg-white rounded-lg w-60 p-2 flex items-center absolute top-52 right-44'>
+                        <span>
+                            <img src={light} alt="" />
+                        </span>
+                        <span className='ml-4'>Get Solutions From Our Experts</span>
+                    </div>
                 </div>
             </div>
 

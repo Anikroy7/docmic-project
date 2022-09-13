@@ -105,7 +105,7 @@ const Header = () => {
                     </h1>
 
 
-                    <p className="py-6">There are many variations of passages of lpsum available, but the majority hae suffered.</p>
+                    <p className="py-6">Empowering People to Improve Their Lives.Exceptional Care Close to You.</p>
                     <button style={{ padding: "15px 20px" }} className="btn btn-secondary">Meet Our Specialist</button>
 
                     <div className='flex justify-around mt-10'>

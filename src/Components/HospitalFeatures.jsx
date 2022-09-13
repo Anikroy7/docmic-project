@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import featurePose from '../images/features_image/pose_7.png'
 import FeaturesDetails from './FeaturesDetails';
+import bloodPress from '../images/expriences_image/Blood_Pressure.png'
+import Plastrer from '../images/expriences_image/Plastrer.png'
+import First_Aid from '../images/expriences_image/First_Aid.png'
 
 const HospitalFeatures = () => {
     const [features, setFeatures] = useState([]);
@@ -21,8 +24,16 @@ const HospitalFeatures = () => {
             <div className="hero">
 
                 <div className="lg:flex sm:flex-col lg:flex-row">
-                    <div className='lg:w-1/2'>
-                        <img src={featurePose} className="rounded-lg" alt='img' />
+                    <div className='lg:w-1/2 relative'>
+                        <img src={featurePose} className="rounded-lg m" alt='img' />
+
+                        <div>
+                            <img className='absolute top-8 left-[240px]' src={bloodPress} alt="" />
+                            <img className='absolute top-7 left-12' src={First_Aid} alt="" />
+                            <img className='absolute top-52 left-[60px]' src={Plastrer} alt="" />
+                        </div>
+
+
                     </div>
                     <div className='lg:w-1/2'>
                         <h5 className='font-bold text-primary'>Our Hospital Feature </h5>

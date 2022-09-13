@@ -18,7 +18,8 @@ const Footer = () => {
                     <span className='text-2xl font-bold textpri'>Mic.</span>
                 </h3>
                 <p>
-                    simply dummy text of the printing <br /> and typesetting industry. Lorem <br /> Ipsum has been
+                    Doctors require medical staffs that<br />  help them in performing <br />their treatment.
+
                 </p>
 
                 <div className='flex'>
