@@ -12,7 +12,7 @@ const Services = () => {
     }, [])
     console.log(services);
     return (
-        <section className='mt-16 mb-24'>
+        <section className='mt-16 mb-10'>
             <h6 className='font-bold text-primary text-center mb-1'> Our Services</h6>
             <h1 className='text-center text-2xl font-bold'>Services For Your Health</h1>
 

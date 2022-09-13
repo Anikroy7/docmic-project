@@ -96,7 +96,7 @@ const Header = () => {
 
                 </div>
                 <div className='lg:w-6/12 mt-0'>
-                    <h1 className='lg:text-[50px] md:text-[60px] sm:text-2xl  font-[500] lg:py-5 md:py-6'>
+                    <h1 className='lg:text-[50px] md:text-[60px] sm:text-2xl font-[500] lg:py-5 md:py-6'>
                         Your <span className='text-secondary'>Health</span> Is Our
 
                     </h1>
