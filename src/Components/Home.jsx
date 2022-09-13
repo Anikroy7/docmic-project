@@ -5,6 +5,7 @@ import Header from './Header';
 import HospitalFeatures from './HospitalFeatures';
 import Navbar from './Navbar';
 import Services from './Services';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
                 <HospitalFeatures></HospitalFeatures>
                 <FAQ></FAQ>
             </div>
+            <Testimonial></Testimonial>
         </div >
     );
 };

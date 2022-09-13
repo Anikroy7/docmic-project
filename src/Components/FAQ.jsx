@@ -3,7 +3,7 @@ import faqImage from '../images/FAQ_image/pose_8.png'
 const FAQ = () => {
     return (
         <section>
-            <h5 className='font-semibold text-primary mt-16' >FAQ Questions </h5 >
+            <h5 className='font-semibold text-primary mt-16 py-3' >FAQ Questions </h5 >
 
 
             {/* Categores container */}
